@@ -1,30 +1,39 @@
 # Ardu-AMUNO
- Its AM-Reciver created on Arduino UNO and python, by this project you can listen AM radio.
+Это AM-ресивер из Arduino Uno и компьютерного кода в Python. Через него можно слушать АМ радио в реальном времени(FM невозможно из-за ограничения скорости Arduino Uno) 
 
-AM-Modulation created in Python, Arduino UNO just listen.
+АМ модуляция происходит на компьютере, а Arduino просто передаёт сигнал.
 
  ---
 
-## Needed libs for python
+## Требуемые библиотеки
 
 `pyserial, numpy, sounddevice, soundfile, scipy.`
 
-## How to connect
+## Как подключить
 ```
-copper coil(3-5meters, 10 turns, Ø30cm) → Arduino A0
+Медная катушка(3-5 метра, 10 витков, Ø30см) → Arduino A0
               ↓
-         Resistor 10-100 KОм → GND
+         Резистор 10-100 KОм → GND
 ```
 
- ## What it can?
- > Listening in real time
+или
 
- > GUI setting (on russian)
+```
+Коаксиальный кабель → Центральная жила → Arduino A0
+                   → Оплётка → Arduino GND
+```
 
- > Record audio in WAW format
+ ## Что можно???
+ > Слушать радио в реальном времени
 
- > Filtering signal
+ > GUI меню для настройки
 
- > Autofind(search best signal)
- 
+ > Запись аудио в WAW формате
 
+ > Фильтвовать сигнал
+
+ > Автопоиск( ищет лучший сигнал )
+
+---
+
+> Прошу не бейте это мой первый проект в GitHub
