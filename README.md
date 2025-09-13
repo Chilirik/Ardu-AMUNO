@@ -1,7 +1,7 @@
 # Ardu-AMUNO
- Its AM-Reciver created on arduino and python, by this project you can listen AM radio.
+ Its AM-Reciver created on Arduino UNO and python, by this project you can listen AM radio.
 
-AM-Modulation created in Python, Arduino just listen.
+AM-Modulation created in Python, Arduino UNO just listen.
 
  ---
 
