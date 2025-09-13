@@ -18,8 +18,13 @@ copper coil(3-5meters, 10 turns, Ø30cm) → Arduino A0
 
  ## What it can?
  > Listening in real time
+
  > GUI setting (on russian)
+
  > Record audio in WAW format
+
  > Filtering signal
+
  > Autofind(search best signal)
+ 
 
